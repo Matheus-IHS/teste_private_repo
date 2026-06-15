@@ -1,15 +1,6 @@
 ---
-layout: blog-post
-title: "Explorando o Sveltia CMS: O Sucessor Espiritual do Netlify CMS"
-date: 2026-06-15T10:00:00Z
-thumbnail: /assets/images/sveltia-cms-banner.jpg
-excerpt: "Descubra como o Sveltia CMS traz velocidade e leveza para a gestão de conteúdo estático usando Svelte no core."
-author: "Ana Silva"
-draft: false
-tags:
-  - sveltia
-  - jamstack
-  - markdown
+title: Meu Primeiro Post
+date: 2026-06-15T11:00:00Z
 ---
 
 ## Por que o Sveltia CMS?
