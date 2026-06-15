@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Matheus-IHS/teste_private_repo
   branch: main
-  auth_type: implicit
+  base_url: https://sveltia-cms-auth.matheus-barreira.workers.dev/
 
 media_folder: "static/img"
 public_folder: "/img"
