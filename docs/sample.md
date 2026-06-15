@@ -13,14 +13,17 @@ O **Sveltia CMS** ganhou o coração de quem sentia saudades do falecido Netlify
 *   **Sem servidor (Serverless):** Não precisa de banco de dados tradicional.
 *   **Interface Limpa:** Foco total na escrita e na experiência do usuário.
 
----
+***
 
 ## Exemplo de Código
 
 Se você estiver usando o Sveltia para um blog de tecnologia, ele lida muito bem com blocos de código formatados:
+
+hamburger hamburger hamburger hamburger hamburger hamburger
 
 ```javascript
 // Exemplo de inicialização simples
 import { sveltia } from 'sveltia-cms';
 
 console.log("Sveltia rodando perfeitamente!");
+```
