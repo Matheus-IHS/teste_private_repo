@@ -14,7 +14,7 @@ collections:
   - name: posts
     label: Posts
     label_singular: Post
-    folder: /
+    folder: ""
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime, type: date }
