@@ -2,10 +2,10 @@
 
 backend:
   name: github
-  repo: local/docs
+  repo: Matheus-IHS/teste_private_repo
   branch: main
 
-local_backend: true
+# local_backend: true
 
 media_folder: "static/img"
 public_folder: "/img"
@@ -13,19 +13,17 @@ public_folder: "/img"
 collections:
   - name: "docs"
     label: "Documentação"
-    folder: "app/docs"
+    folder: "/"
     extension: "md"
     format: "frontmatter"
     create: true
-    nested:
-      depth: 3
-    meta:
-      path:
-        widget: string
-        label: Caminho
-        index_file: index
+    slug: "{{slug}}" # Dictates the filename (e.g., title-of-page.md)
+    filter: { field: "title", match: ".*" }
+    exclude:
+      - "README.md"
+      - "node_modules"
+      - ".git"
     fields:
-      - { label: "Título", name: "title", widget: "string", required: false }
+      - { label: "Título", name: "title", widget: "string", required: true }
       - { label: "Posição no Sidebar", name: "sidebar_position", widget: "number", required: false, value_type: "int" }
-      - { label: "Label no Sidebar", name: "sidebar_label", widget: "string", required: false }
-      - { label: "Conteúdo", name: "body", widget: "markdown" }
+      - { label: "Label no Sidebar", name: "sidebar_label", widget: "
